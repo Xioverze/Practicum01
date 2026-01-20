@@ -17,7 +17,7 @@ public class PersonGenerator {
 
             records.add(String.format("%s, %s, %s, %s, %d",
                     id, first, last, title, yob));
-
+            // lmao the YNConfirm has a typo in it, are we supposed to fix this?
             more = SafeInput.getYNConfirm(in, "add another person?");
         } while (more);
 
